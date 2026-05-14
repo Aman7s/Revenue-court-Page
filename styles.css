@@ -35,39 +35,46 @@ a{
 }
 
 .main{
-    font-size: 48px;
+    font-size: 24px;
     color: #f9faf8;
     font-weight: 900;
 }
 .first{
     background-color: #1f2937;
     display: flex;
-    font-size: 18px;
+    font-size: 16px;
     color: #e5e7eb;
     justify-content: space-between;
+    align-items: center;
+
 }
 .topImage{
-  max-width: 50vh;
-  max-height: auto;
-  object-fit: cover;
+    display: flex;
+  justify-content: center;
   padding: 20px;
+  flex: 4;
+  
 } 
 
 .button-top{
-    font-size: larger;
+    font-size: 16px;
     background-color: #3882f6;
     color: #e5e7eb;
-    padding: 12px;
+    padding: 8px;
     border-radius: 12px; /* Small value for subtle corners */
     border: none;
 }
 
-.text{
+.mainText{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 16px;
+    flex: 6;
+}
+.second{
+    margin: 0 20vh;
 }
 
 .second-head{
@@ -84,22 +91,27 @@ a{
     gap: 12px;
     justify-content: space-around;
     align-items: center;
-
-
-    /* max-width: 100vh; */
 }
 
+.types li{
+   justify-content: center; 
+   align-items: center;
+   text-align: justify;
+   border:4px solid #3882f6;
+   border-radius: 8
+   3px;
+}
 
     img {
   max-width: auto;
   height: 20vh; 
   display: block;
+
   border: #3882f6;
   box-sizing: 2px;
-  flex-grow: 0;
-  /* object-fit: cover; */
-  object-fit: contain;
-}
+  /* flex-shrink: 1; */
+  object-fit: cover;
+    }
 
 .third{
     display: flex;
@@ -132,6 +144,7 @@ a{
  background-color: #3882f6;
  border-radius: 2vh ;
  padding: 4vh;
+ justify-content: space-between;
 }
 
 .CTA-text{
@@ -145,16 +158,15 @@ a{
    color: #f9faf8;
 }
 
-.CTA-button{
+.sign-up{
     font-size: 4vh;
     font-weight: 600;
     align-self: center;
-    justify-self: self-end;
     color: #f9faf8;
     background-color: #3882f6;
     border-radius: 16px; /* Small value for subtle corners */
   border: 2px solid white; /* Sets all 4 sides to the same style */
-
+padding: 8px;
 
 }
 
@@ -163,5 +175,7 @@ footer{
     justify-content: center;
     background-color: #1f2937;
     color: #f9faf8;
-    font-size: large;
+    font-size: 24px;
+    padding: 8px;
+
 }
