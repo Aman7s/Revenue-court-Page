@@ -94,12 +94,20 @@ a{
 }
 
 .types li{
+
+    
    justify-content: center; 
    align-items: center;
    text-align: justify;
    border:4px solid #3882f6;
    border-radius: 8
    3px;
+}
+
+.types li img {
+  width: 100%; /* fill the li container */
+  height: 200px;
+  object-fit: cover;
 }
 
     img {
